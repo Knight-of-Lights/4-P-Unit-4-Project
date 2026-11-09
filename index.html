@@ -1,8 +1,8 @@
 <!--Unit 4 Project
 Requirements
-[ ] Three Distinct CSS font-family Declarations
+[ Yep!] Three Distinct CSS font-family Declarations
 [ ] Five CSS Rules
-[ ] An Unordered **or** Ordered List (<ul> or <ol>)
+[Yep!] An Unordered **or** Ordered List (<ul> or <ol>)
 [ ] Three Images
 
 Select ONE Additional Feature to Add  
@@ -19,28 +19,74 @@ Select ONE Additional Feature to Add
 <head>
   <title>Unit 4 Project</title>
   <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Redaction+70:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nabla&family=Redaction+70:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anta&family=Nabla&family=Redaction+70:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
   <style>
 
+
+td,tr,table{border:1px solid  }
+#dataP{font-family: "Redaction 70", sans-serif;}
+  h3{ font-family: "Nabla", system-ui;}
+  p{  font-family: "Anta", sans-serif;}
+  
   </style>
 </head>
 <body>
 
-  <h1>My Unofficial Local Guide to [~~~]</h1>
+  <h1>CABLE!!</h1>
+  <p>In lighting, we use cable to send power and data to our lights. Of course, different lights have diffferent requirements for both, so this will be a shallow overview of different types of cables and when you woud need to use them. </p>
   
-  <h3>Content Element 1</h3>
+  <h3>Power Cables</h3>
   <hr>
-  <p>About Content Element #1</p>
+  <p>Before we start talking about the different types of connectors you might find on a power cable, its important to talk about safety. Each cable should have 3 wires, a hot, neutral, and ground. <br><br>
+    Hot is what sends live electricity to the fixture. Neutral takes the spend current and sends it back to the power supply to complete the circut. the ground is incredibly important, because if either of the other cables fail for some reason, the ground will divert the current.  if not for the ground wire, the entire cable might become electrified and incredibly dangerous. <br><br>DO NOT PLUG SOMETHING IN IF THE GROUND IS BROKEN<br><br>
+  Now that that is out of the way, we can discuss the different connectors you might see on a power cable</p>
+  <br><br>
+    <table>
+  <thead>
+    <tr>
+      <th>connector type</th>
+      <th>when its used</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Stagepin<img src="https://www.stagelightingstore.com/Images/Pintech%20X20SP-P.All%20Products_00.default.jpg?fcts=20240223083059&resizeid=2&resizeh=600&resizew=600" alt="Stagepin Cable" height="100"></td>
+   <td>This is the connector type that is most commonly used in older theaters with incandescent fixtures (we will probably discuss the difference between incandescent and LED fixtures later). the power infrastructure in both LaGuardia theaters runs on stage pin cable<br> <br>
+</td>
+    </tr>
+    <tr>
+      <td>Edison <img src="https://media.redstarpictures.com/wp-content/uploads/2022/08/29141227/stinger.webp" height="100" alt="Edison Cable"> </td>
+      <td>Most household appliances use edison connectors, but there has been a recent uptick in the amount of lighting equipment that can be adapted to edison. This is because of the popularity of using exisiting edison outlets to power LED fixtures and then just running dmx through access points instead of hanging trusses.</td>
+    </tr>
+  </tbody>
+</table>
+Other commonly used power cables include:
+  <ul>
+  <li>L620 (aka twist-lock)</li>
+  <img src="https://www.customavrack.com/wp-content/uploads/2023/11/0007541.png" height="75" alt="L620">
+  <li>Blue-gray powercon</li>
+   <img src="https://cdn11.bigcommerce.com/s-kwym88rop/images/stencil/1280x1280/products/4999/13340/pc12-ab-5__53191.1619117752.1280.1280__82500.1665687429.png?c=1?imbypass=on" height="75" alt="Blue gray powercon">
+  <li>Tru-1</li>
+  <li>SOCAPEX (aka mult)</li>
+
+  </ul>
+
+  <h3>Data Cables</h3>
+  <hr>
+  <p id="dataP">Okay in all honesty im kinda just too lazy rn to talk about data cables because theres literally just so much to say. I just dont want to deal with explaining dmx and daisy chains and universes and and addresses and channels and dimmers and thru power and patching and octos and gateways, so hopefully i will eventually delete and replace this with all of that information, but right now I cant be bothered</p>
   <br><br>
 
-  <h3>Content Element 2</h3>
-  <hr>
-  <p>About Content Element #2</p>
-  <br><br>
-
-  <h3>Content Element 3</h3>
-  <hr>
-  <p>About Content Element #3</p>
-  <br><br>
 
 </body>
 </html>
